@@ -35,10 +35,17 @@ color: white;
   text-align: center;
 }
 input{
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.1);
   color: white;
 /* height: 10%; */
 padding: 1% 2%;
 width: 80%;
+
+}
+
+#googlemaps{
+  position: absolute;
+  top: 85vh;
+  left:10%;
 
 }
