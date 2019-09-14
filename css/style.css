@@ -31,9 +31,9 @@ width: 50%;
 align-items: center;
 
 }
-.rotate  img{
-  -webkit-animation: spin 2s linear infinite;
-   animation: spin 2s linear infinite;
+.rotate img{
+  -webkit-animation: spin 1s linear infinite;
+   animation: spin 1s linear infinite;
 }
 
 @-webkit-keyframes spin {

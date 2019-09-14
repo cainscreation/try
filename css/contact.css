@@ -44,8 +44,8 @@ width: 80%;
 }
 
 #googlemaps{
-  position: absolute;
-  top: 85vh;
-  left:10%;
+text-align: center;
+padding-top:80vh;
+padding-bottom: 2%;
 
 }

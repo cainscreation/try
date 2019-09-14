@@ -2360,7 +2360,7 @@
 
 .rotateIn {
   -webkit-animation-name: rotateIn;
-  animation-name: rotateIn;
+  animation-name: rotateIn ;
 }
 
 @-webkit-keyframes rotateInDownLeft {
