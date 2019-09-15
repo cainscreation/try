@@ -1,21 +1,28 @@
-.content{
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.content {
   text-align: center;
   color: white;
   padding-top: 3%;
 }
-.content p{
+
+.content p {
   padding: 1% 30%;
   font-size: 20px;
-
 }
 
-.content a{
+.content a {
   color: grey;
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
 }
-.content a:hover{
+
+.content a:hover {
   color: white;
   text-decoration: none;
 }
