@@ -115,49 +115,88 @@ align-items: center;
   font-size: 20px;
   padding-top: 1%;
 }
-
-@media screen and (max-width:600px) {
-  #back li {
-    font-size: 12px;
-  }
-  #heading{
-    font-size:20px;
-    font-weight: 400;
-  }
-  #content{
-    font-size: 12px;
-    padding-top: 1%;
-  }
-  .para {
-    position: absolute;
-    width: 80%;
-    padding:0 5%;
-    /* padding-left: 4%;
-    padding-top: 10%; */
-    left: 4%;
-    top:30%;
-
-  }
-  /* #image1{
-    position: absolute;
-    top: 30px;
-    right: 10%;
-
-  }
-  .layer1{
-    position: absolute;
-    top: 0;
-    width: 200px;
-    height: 200px;
-  } */
-.actived{
-  font-size: 8px;
-  padding-top:3px;
-  padding-bottom: 3px;
+.mobile{
+  display: none;
 }
-.deactive{
-  font-size: 8px;
-  padding-top:3px;
-  padding-bottom: 3px;
+
+
+
+@media screen and (max-width:900px) {
+.web{
+  display: none;
+
 }
+
+.none {
+  display: none;
+}
+.mobile{
+  display: block;
+  text-align: center;
+}
+#loadmob{
+  width: 30%;
+}
+#contentmob{
+  color: white;
+  padding-top: 10vh;
+}
+.rightmob img{
+  height: 40vh;
+  padding-bottom: 7%;
+}
+.mobilenav{
+  text-align: center;
+  -webkit-animation-duration: 0.4s;
+  -webkit-animation-delay: 0.4s;
+  -webkit-animation-iteration-count: 1;
+  /* float: right; */
+}
+.mobilenav img{
+height: 10vh;
+padding: 1% 2%;
+}
+
+.mobilenav ul{
+  padding-top: 1%;
+}
+.mobilenav ul a{
+  text-decoration: none;
+  color: white;
+}
+.mobilenav li{
+  padding: 2%;
+  float: left;
+  list-style: none;
+  color: white;
+}
+.mobilenav a{
+  color: white;
+}
+.paramob{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+.righmob{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+
+.footercontent{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  color: white;
+
+}
+#mainmob{
+  padding: 0 5%;
+}
+#load{
+  padding-top: 45vh;
+}
+
+
 }

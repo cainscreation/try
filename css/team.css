@@ -33,3 +33,59 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+  .mobile{
+    display: none;
+  }
+  @media screen and (max-width:900px) {
+    .web {
+      display: none;
+    }
+
+    .mobile {
+      display: block;
+      text-align: center;
+    }
+
+    /* nav */
+    .mobilenav {
+
+      text-align: center;
+      -webkit-animation-duration: 0.4s;
+      -webkit-animation-delay: 0.4s;
+      -webkit-animation-iteration-count: 1;
+      /* float: right; */
+    }
+
+    .mobilenav img {
+      height: 10vh;
+      padding: 1% 2%;
+    }
+
+    .mobilenav ul {
+      padding-top: 1%;
+    }
+
+    .mobilenav ul a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .mobilenav li {
+      padding: 2%;
+      float: left;
+      list-style: none;
+      color: white;
+    }
+
+    .mobilenav a {
+      color: white;
+    }
+
+    /* nav */
+    .contentmob{
+      padding-top: 20%;
+      text-align: center;
+      color: white;
+    }
+
+  }
